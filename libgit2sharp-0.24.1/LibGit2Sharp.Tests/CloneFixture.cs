@@ -12,8 +12,8 @@ namespace LibGit2Sharp.Tests
     public class CloneFixture : BaseFixture
     {
         [Theory]
-        //[InlineData("http://github.com/libgit2/TestGitRepository")]
-        //[InlineData("https://github.com/libgit2/TestGitRepository")]
+        [InlineData("http://github.com/libgit2/TestGitRepository")]
+        [InlineData("https://github.com/libgit2/TestGitRepository")]
         [InlineData("git://github.com/libgit2/TestGitRepository")]
         //[InlineData("git@github.com:libgit2/TestGitRepository")]
         public void CanClone(string url)
