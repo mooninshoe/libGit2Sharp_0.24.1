@@ -1,0 +1,1 @@
+# libGit2Sharp_0.24.1
